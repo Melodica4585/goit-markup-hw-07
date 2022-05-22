@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href=https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
 
@@ -29,14 +29,14 @@
             <li class="header-contacts__mail">
                 <a class="header-contacts__link"
                 href="mailto:info@devstudio.com">
-                <svg class="mail-icon">
+                <svg class="header-contacts__envelope">
                     <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com</a>
             </li>
             <li class="header-contacts__phone">
                 <a class="header-contacts__link"
                 href="tel:+380961111111">
-                <svg class="phone-icon">
+                <svg class="header-contacts__smartphone">
                     <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>+38 096 111 11 11</a>
             </li>
@@ -49,8 +49,8 @@
         <!-- Hero -->
 
         <section class="banner-section">
-            <h1 class="banner__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button type="button" class="banner__btn" data-modal-open><span>Заказать услугу</span></button>
+            <h1 class="banner-section__banner-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button" class="banner-section__banner-btn" data-modal-open><span>Заказать услугу</span></button>
     </section>
 
         <!-- Особенности -->
@@ -385,12 +385,12 @@
                         </div>
                                     <form class="form-footer">
                                         <div class="flex-form">
-                                        <label for="mail" class="sub-text">Подпишитесь на рассылку</label>
-                                        <div class="item-form">
-                                            <input type="email" name="mail" id="mail" placeholder="E-mail" class="mail-sub">
-                                        <button type="submit" class="sub-button">
-                                            <span class="sub-button__text">Подписаться</span>
-                                            <svg class="sub-button__icon" width="24px" height="24px">
+                                        <label for="mail" class="flex-form__text">Подпишитесь на рассылку</label>
+                                        <div class="sub-form">
+                                            <input type="email" name="mail" id="mail" placeholder="E-mail" class="sub-form__mail">
+                                        <button type="submit" class="sub-form__button">
+                                            <span class="sub-form__button-text">Подписаться</span>
+                                            <svg class="sub-form__button-icon" width="24px" height="24px">
                                                 <use href="./images/icons.svg#icon-plane"></use>
                                             </svg>
                                     </button>
